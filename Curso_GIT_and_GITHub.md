@@ -84,3 +84,6 @@ Los 3 Estados de Git.
 COMANDOS =
         git status: con este comando podemos saber cual es el estado de nuestro archivo.
 
+        git commit -m "comentario al respecto del commit": sirve para dar finalizado la modificacion de los archivos y cargarlos al repositorio Local.
+
+        
