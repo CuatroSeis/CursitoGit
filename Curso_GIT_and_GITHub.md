@@ -42,7 +42,7 @@ Como funciona GIT?
         van a copiarse en la version del dia 2 martes).
         
         En resumen Git hace una foto instantanea al momento de que estes escribiendo el codigo
-        y de esta manera, vas a poder terner un historial con todas las versiones de tu codigo
+        y de esta manera, vas a poder tener un historial con todas las versiones de tu codigo
         y acceso a cada una.
 
 Ventajas de utilizar Git.
@@ -53,7 +53,7 @@ Ventajas de utilizar Git.
         
         ~NO Borra = Solo anade informacion a la base de datos de Git
         
-        ~Integridad = Es muy dificil que vayamos a perder las copias instantaneas que git realizar de forma automatiza cuando codeamos.
+        ~Integridad = Es muy dificil que vayamos a perder las copias instantaneas que git realiza de forma automatizada cuando codeamos.
 
         En git, todo siempre esta verificado con el HASH: SHA-1: 24b9da6552252987aa493b52f8696cd6d3b00373
 
@@ -69,12 +69,12 @@ Los 3 Estados de Git.
             Working Dyrectory = Directorio de trabajo = MODIFIED
                 (es donde se va a crear el codigo y donde se va a trabajar)
 
-                   ~ git add ~: Para pasar de Modified a Staged
+                   ~ git add ~: pasamos de Modified a Staged
 
             Staging Area = El area de preparacion = STAGED
                 (es un archivo contenido en tu directorio de git, funciona como una lista o indice, indicando que archivos van a ir para el commit)
 
-                  ~ git commit ~: para pasar de Stager a Committed
+                  ~ git commit ~: pasamos de Staged a Committed
 
             Local Repository = El repositorio local o directorio de git = COMMITED
                 (es donde se almacenan los metadatos y la base de datos para tus proyectos)
@@ -86,4 +86,16 @@ COMANDOS =
 
         git commit -m "comentario al respecto del commit": sirve para dar finalizado la modificacion de los archivos y cargarlos al repositorio Local.
 
+        git log: te muestra las modificaciones que se realizaron a lo ultimo, con la informacion de el usuario que realizo las modificaciones.
+
+        git add . = envia todas las modificaciones que realizaste al staging area, no agrega los eliminados ni los que tienen seguimiento.
+
+        git add NOMBREARCHIVO.EXTENSION = ahi solo agrega el archivo que seleccionamos al staging area.
+
+        git push = para que otros programadores puedan ver el archivo, mas adelante lo vemos en profundidad.
+
+        pull request = pedir solicitud para modificar algo
         
+        
+        
+
