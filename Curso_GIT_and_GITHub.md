@@ -163,7 +163,13 @@ COMANDOS =
 
         git revert = revierte todos los cambios que realizamos en un commit en especifico. Y agregar un nuevo commit en la historia de git, con los cambios desechos.
 
-        git mv = mv viene de move o mover.
+        git mv = mv viene de move o mover. Es un atajo de viejo nombre a nuevo nombre.
+               Esto es lo que ejecuta git mv:
+               mv archivo6 nuevonombre
+               git add nuevonombre
+               git rm archivo6
+        
+        
 
 
 
