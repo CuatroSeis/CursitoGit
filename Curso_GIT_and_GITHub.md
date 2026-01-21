@@ -159,10 +159,12 @@ COMANDOS =
 
         git clean -f  = Elimina el archivo no trackeado.
 
+        git reset HEAD = lo que hace es volver hacia atras la ubicacion de el archivo, de etapa 2 a etapa 1
 
-
-
-
-
+        git revert = revierte todos los cambios que realizamos en un commit en especifico. Y agregar un nuevo commit en la historia de git, con los cambios desechos.
         
+
+
+Rojo cuando esta en etapa 1  - Working Dyrectory
+Verde cuando esta en etapa 2  - Staging Area
 
