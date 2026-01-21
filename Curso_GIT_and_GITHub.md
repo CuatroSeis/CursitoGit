@@ -163,6 +163,8 @@ COMANDOS =
 
         git revert = revierte todos los cambios que realizamos en un commit en especifico. Y agregar un nuevo commit en la historia de git, con los cambios desechos.
 
+        git mv = mv viene de move o mover.
+
 
 
 Rojo cuando esta en etapa 1  - Working Dyrectory
