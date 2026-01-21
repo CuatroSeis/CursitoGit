@@ -96,6 +96,20 @@ COMANDOS =
 
         pull request = pedir solicitud para modificar algo
         
+        git remote add origin "direccion del repositorio* = para agregar un repositorio de github a nuestra carpeta o repositorio local de git en nuestra pc.
+
+        git remote -v = para ver los repositorios que tenemos
+
+        git push = es el comando que vamos a utilizar para enviar archivos locales, al repositorio remoto.
+
+        origin = fue el nombre que nosotros le dimos al repositorio remoto al hacer el git remote add, para el primer repositorio suele utilizarse origin, pero podemos poner el nombre que querramos. *upstream* es el segundo nombre que se utiliza para referirse a repositorios remotos.
+
+        master = la rama en donde vamos a trabajar.
         
+        git pull = se utiliza para jalar los cambios
+
+
+
+
         
 
