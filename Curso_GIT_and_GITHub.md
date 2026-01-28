@@ -168,6 +168,13 @@ COMANDOS =
                mv archivo6 nuevonombre
                git add nuevonombre
                git rm archivo6
+
+        git branch = para ver las ramas que existen, y donde estamos parados.
+
+        git branch "texto" = crea una nueva rama con el nombre introducido(sin comillas)
+
+        git branch -d "texto" = asi podemos eliminar la rama que queramos.
+
         
         
 
@@ -183,6 +190,19 @@ me da la opcion LOG FILE: pero no me permite hacer mas nada.
 tengo que reiniciar la terminarl. Con CTRL + Z vuelve a dejarme escribir.
 ------------------------------------------------------------------------------------------------------------------------
 
-BRANCH: Rama
+BRANCH: 
+        Rama, por ramificacion. A la hora de trabajar en un proyecto profesional, cuando te toque desarrollar algo, vas a tener que crear una rama, asi encapsulas las modificaciones y podes equivocarte sin poner en riesgo la rama principal(el software en produccion). En las ramas podras probar todo sin que se mezcle con el proyecto base.
 
-MERCH: Mezclar
+                Existe una rama principal, denominada RAMA MASTER, cada empresa puede llamar la rama principal de diferentes formas. ej. PROD de production. o DEV de DEVELOPMENT. etc.
+                (por default es MASTER)
+
+MERCH: Mezclar, de mezclar codigo.
+
+
+FLUJO DE TRABAJO.
+
+        1. De la rama MASTER, creamos un BRANCH, aqui podemos comenzar a desarrollar tranquilos.
+        2. Siguiente paso, add commit, agregar los commits.
+        3. una vez tengamos los cambios realizado y listos para lanzar, solicitamos un PULL REQUEST. Que es una solicitud para agregar codigo, desde tu rama(branch) al codigo base(master). Se puede hacer pull request, de cualquier rama a cualquier otra rama.
+        4. Luego de que acepten que pull request, tus companeros haran comentarios, y marcaran lo que haya que corregir. o diran sugerencias. para actualizar tu pull request. Si esta perfecto, lo aprobaran.
+        5. El ultimo paso es realizar el MERGE desde el codigo ya con el pull request aceptado. 
