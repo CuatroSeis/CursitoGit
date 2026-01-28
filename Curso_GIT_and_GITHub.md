@@ -177,10 +177,10 @@ COMANDOS =
 
         git branch -m nombreviejo nombrenuevo = asi podemos cambiar el nombre de la rama.
         
-         
+        git checkout -b ramanueva2 = crea la rama nueva y posiciona sobre ella de una vez. Es el comando que se utiliza dia a dia.
         
 
-
+------------------------------------------------------------------------------------------------------------------------
 
 Rojo cuando esta en etapa 1  - Working Dyrectory
 Verde cuando esta en etapa 2  - Staging Area
@@ -199,6 +199,10 @@ BRANCH:
                 (por default es MASTER)
 
 MERCH: Mezclar, de mezclar codigo.
+        lo que hace es unir dos o mas historias de desarrollo.
+        Supongamos que un dia creaste una rama y tardaste 3 dias en realizar el commit, en la rama principal otros desarrolladores tambien realizaron su trabajo, al momento de hacer un MERGE, git va a mezclar las dos rutas. Esto desata un conflicto.
+
+        CONFLICTO: 
 
 
 FLUJO DE TRABAJO.
