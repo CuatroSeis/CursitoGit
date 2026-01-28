@@ -173,9 +173,11 @@ COMANDOS =
 
         git branch "texto" = crea una nueva rama con el nombre introducido(sin comillas)
 
-        git branch -d "texto" = asi podemos eliminar la rama que queramos.
+        git branch -d texto = asi podemos eliminar la rama que queramos.
 
+        git branch -m nombreviejo nombrenuevo = asi podemos cambiar el nombre de la rama.
         
+         
         
 
 
