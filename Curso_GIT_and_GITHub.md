@@ -178,6 +178,13 @@ COMANDOS =
         git branch -m nombreviejo nombrenuevo = asi podemos cambiar el nombre de la rama.
         
         git checkout -b ramanueva2 = crea la rama nueva y posiciona sobre ella de una vez. Es el comando que se utiliza dia a dia.
+
+        git merge agregando merge = va a mezclar dos commits, de dos ramas diferentes, en la rama master(o la rama donde realicemos el merge).
+
+                fast foward = git soluciona de forma automatica como ibamos a unir este codigo.
+                Y no es necesario escribir un commit extra, con dos padres.
+
+                recursive = 
         
 
 ------------------------------------------------------------------------------------------------------------------------
