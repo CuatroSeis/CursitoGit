@@ -176,9 +176,13 @@ COMANDOS =
 Rojo cuando esta en etapa 1  - Working Dyrectory
 Verde cuando esta en etapa 2  - Staging Area
 
---------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 git log , no me permite seguir escribiendo en la terminal.
 me da la opcion LOG FILE: pero no me permite hacer mas nada.
 
 tengo que reiniciar la terminarl. Con CTRL + Z vuelve a dejarme escribir.
---------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+BRANCH: Rama
+
+MERCH: Mezclar
