@@ -224,5 +224,19 @@ FLUJO DE TRABAJO.
 
 
 STASH. :
+        git stash : crea un espacio virtual donde guardas los ultimos cambios que realizaste para que otro pudiera seguir trabajando sin afectar lo tuyo. Se puede hacer git stash en diferentes archivos y cada git stash se apila uno por encima del otro.
+
+        git stash pop : del espacio virtual donde se guardaron datos con git stash, extrae los archivos que fueron modificados, siempre en el orden en que fueron quedando
+        
+        el primero el entrar es el ultimo en salir (uno encima del otro). Asi es el formato en el que se acomodan los archivos a los que realizamos git stash, como una pila de platos, uno encima del otro.
+
+        git stash list : muestra informacion de la lista de stash con numero de orden.
+
+        git stash clear : limpia la pila de git stash, dejandola vacia.
+
+TAG. : 
+        git tag
+
+
 
         
