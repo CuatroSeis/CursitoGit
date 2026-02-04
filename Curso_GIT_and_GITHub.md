@@ -235,7 +235,7 @@ STASH. :
         git stash clear : limpia la pila de git stash, dejandola vacia.
 
 TAG. : 
-        git tag
+        git tag : no permite etiquetar un commit, esto nos es muy util para cuando queremos manejar versiones de los proyectos. 
 
 
 
