@@ -179,12 +179,14 @@ COMANDOS =
         
         git checkout -b ramanueva2 = crea la rama nueva y posiciona sobre ella de una vez. Es el comando que se utiliza dia a dia.
 
-        git merge agregando merge = va a mezclar dos commits, de dos ramas diferentes, en la rama master(o la rama donde realicemos el merge).
+        git merge agregandomerge = va a mezclar dos commits, de dos ramas diferentes, en la rama master(o la rama donde realicemos el merge).
 
                 fast foward = git soluciona de forma automatica como ibamos a unir este codigo.
                 Y no es necesario escribir un commit extra, con dos padres.
 
-                recursive = 
+                recursive = es cuando combinamos dos commit de diferentes ramas, en una sola, combinando los cambios.
+
+        
         
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -209,7 +211,7 @@ MERCH: Mezclar, de mezclar codigo.
         lo que hace es unir dos o mas historias de desarrollo.
         Supongamos que un dia creaste una rama y tardaste 3 dias en realizar el commit, en la rama principal otros desarrolladores tambien realizaron su trabajo, al momento de hacer un MERGE, git va a mezclar las dos rutas. Esto desata un conflicto.
 
-        CONFLICTO: 
+        CONFLICTO: un conflicto es cuando dos DEV escriben sobre la misma linea y luego git marca el archivo como archivo en conflicto. Y es asunto del DEV resolver dicho conflicto.
 
 
 FLUJO DE TRABAJO.
@@ -219,3 +221,8 @@ FLUJO DE TRABAJO.
         3. una vez tengamos los cambios realizado y listos para lanzar, solicitamos un PULL REQUEST. Que es una solicitud para agregar codigo, desde tu rama(branch) al codigo base(master). Se puede hacer pull request, de cualquier rama a cualquier otra rama.
         4. Luego de que acepten que pull request, tus companeros haran comentarios, y marcaran lo que haya que corregir. o diran sugerencias. para actualizar tu pull request. Si esta perfecto, lo aprobaran.
         5. El ultimo paso es realizar el MERGE desde el codigo ya con el pull request aceptado. 
+
+
+STASH. :
+
+        
